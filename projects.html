@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h4>myPORTFOLIO</h4>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#aboutme">about</a></li>
+            <li><a href="index.html#contactme">contact me</a></li>
+        </ul>
+    </nav>
+    <div class="projectpage0">
+        <h1>projects</h1>
+        <div class="projectpage">
+            <div class="name" id="name">
+                <div class="projectbox button" id="addproject" onclick="addproject()"><img id="addimg" src="assets/add content.png" alt="addproject"></div>
+                <div class="projectbox button" id="project1" onclick="loaddescription('project1')">Calculator</div>
+                <div class="projectbox button" id="project2" onclick="loaddescription('project2')">To Do List</div>
+            </div>
+            <div id="description0" class="description">
+                <h1>Description</h1>
+                <p id="description">A simple calculator project created using HTML, CSS, and JavaScript. The project allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The interface consists of a display screen to show input and results, buttons for numbers 0-9, decimal point, and operation symbols (+, -, *, /). The calculator has a simple but intuitive design, with buttons styled using CSS to make them visually appealing. JavaScript handles the logic of the calculator, processing input, performing calculations, and updating the display. This project is a great way to practice fundamental web development skills and understand the relationship between HTML, CSS, and JavaScript.</p>
+                <h2 id="link">Link  :&nbsp<a href="https://chandelanish.github.io/calculator/">calculator project link</a></h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
